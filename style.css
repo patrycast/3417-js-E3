@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Franklin:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+
+}
+h1{
+    text-align: center;
+    margin: 15px 0;
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 900;
+    background-image: linear-gradient(to bottom, red, black);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.buscador{
+    width:50%;
+    height: 120px;
+   background-color: #cf0a2c;
+   margin: 0 auto;
+   border-radius: 8px;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.buscador-input{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color:#f0ffff;
+    margin-top: 20px;
+   
+
+}
+label{
+    outline: none;
+    margin-right: 5px;
+ 
+}
+#input-id{
+    width:60px;
+    height: 25px;
+    outline: none;
+    color:rgb(80, 77, 77);
+    font-weight: 800;
+    border-radius: 7px;
+}
+.boton{
+    width:80px;
+    padding: 5px 8px;
+    margin: 18px 0;
+    background-color:#cf0a2c;
+    font-size:18px ;
+    border-radius: 9px;
+    color:#f0ffff;
+    border: 2px solid orangered;
+    transition: all 0.2s ease-in-out;
+    font-weight: 300;
+   
+}
+.boton:hover{
+    background-color: orangered;
+    transition: all 0.2s ease-in-out;
+    font-weight: 500;
+
+
+}
+
+#container {
+    width:50%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(32, 31, 31);
+    color:rgb(247, 228, 202);
+    border-radius: 5px;
+    
+}
+#container h2{
+    font-size: 26px;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(253, 252, 252)); 
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#container p{
+    font-size: 22px;
+    background-image: linear-gradient(to bottom, rgb(253, 252, 252),  rgb(255, 0, 0)); 
+    -webkit-background-clip: text;
+    color: transparent;
+    margin:8px 0;
+    text-align: center;
+}
+#container img{
+    width: 190px;
+    border-radius: 9px;
+    border: 2px solid rgb(251, 246, 246);
+    box-shadow: 1px 2px 3px 2px rgb(112, 108, 108);
+    
+}
+
+
+.card{
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
